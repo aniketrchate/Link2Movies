@@ -2,9 +2,7 @@
 
 ## 🌟 Overview
 
-Hey there, movie buffs! 🎬🍿
-
-This is a **static website** that dynamically loads movie links using JavaScript. Whether you're into streaming, downloading, or just exploring cool movie sites, this page has got you covered! 
+**Static website** that dynamically loads movie links using JavaScript. Whether you're into streaming, downloading, or just exploring cool movie sites, this page has got you covered!
 
 ---
 

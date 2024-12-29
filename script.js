@@ -5,7 +5,7 @@ const movieLinks = [
     { url: "https://1tamilmv.ac/", text: "tamilmv" },
     { url: "https://TAMILBLASTERS.AC/", text: "TAMILBLASTERS" },
     { url: "https://7hitmovies.zone/", text: "7hitmovies" },
-    { url: "https://app1.olamovies.download/", text: "https://app1.olamovies.download/ " },
+    { url: "https://app1.olamovies.download/", text: "olamovies" },
     { url: "https://atishmkv2.store/", text: "atishmkv2" },
     { url: "https://bolly4u.promo/", text: "bolly4u" },
     { url: "https://bollyflix.ind.in/", text: "bollyflix" },
