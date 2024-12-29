@@ -1,4 +1,4 @@
-# 🎥 Link2MoviesMovie
+# 🎥 Link2Movies
 
 ## 🌟 Overview
 
@@ -38,7 +38,8 @@ Wanna try this out on your own machine? No prob! 🙌
 `cd Link2Movies`
 
 1. **Open the `index.html` file** in your browser! 😍
- * Or you can use a **Live Server** (like VSCode’s Live Server extension) for that instant magic! ✨
+
+* Or you can use a **Live Server** (like VSCode’s Live Server extension) for that instant magic! ✨
 
 ---
 
