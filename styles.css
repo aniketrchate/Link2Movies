@@ -1,0 +1,168 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Prevent Overflow */
+html, body {
+    height: 100%; /* Ensure the body takes up the full height of the screen */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-y: auto; /* Allow vertical scrolling if necessary */
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;  /* Dark background */
+    color: #f1f1f1;  /* Light text for contrast */
+    line-height: 1.6;
+    padding: 0 10px;
+    padding-bottom: 50px;  /* Add bottom padding to avoid content under footer */
+}
+
+/* Header Styling */
+header {
+    background-color: #1d1d1d;  /* Dark header */
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 3px solid #333;
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    color: #66ff66; /* Neon Green for emphasis */
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+/* Link List Styling */
+#link-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    max-width: 100%; /* Ensure the list doesn't overflow */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the items horizontally */
+}
+
+.link-item {
+    background-color: #1a1a1a; /* Dark item background */
+    color: #fff;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the text horizontally */
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    cursor: pointer;
+    position: relative;
+    width: 80%; /* Ensure items fit within the container */
+    text-align: center; /* Center text within each list item */
+}
+
+/* Hover effect on list items */
+.link-item:hover {
+    background-color: #333; /* Darker shade on hover */
+    transform: translateY(-3px);  /* Slight upward shift */
+    border-color: #66ff66; /* Neon border */
+    box-shadow: 0px 5px 15px rgba(0, 255, 255, 0.2);
+}
+
+/* Link Text Styling */
+.link-item a {
+    text-decoration: none;
+    color: #66ff66;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.link-item a:hover {
+    color: #ff6347;  /* Soft red on hover */
+}
+
+/* Adding extra icon or graphic next to link */
+.link-item::before {
+    content: '🌐';  /* Globe icon */
+    font-size: 1.5rem;
+    margin-left: 10px; /* Ensure there's space between the text and icon */
+    position: absolute;
+    right: 20px; /* Push the icon to the right side */
+}
+
+/* Hovering over the icon and link should also show a subtle glow effect */
+.link-item:hover::before {
+    color: #66ff66; /* Neon glow effect for icon */
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .link-item {
+        padding: 12px 15px;
+        font-size: 1rem;
+    }
+
+    .link-item a {
+        font-size: 1rem;
+    }
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer strong {
+    color: #ff6347; /* Bright red for the creator's name */
+}
+
+footer p:last-child {
+    font-size: 0.8rem;
+}
+
+/* Add animation for footer text */
+footer p {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
