@@ -14,7 +14,7 @@ html, body {
 
 /* Body Styling */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', 'Courier New', monospace; /* Terminal font */
     background-color: #121212;  /* Dark background */
     color: #f1f1f1;  /* Light text for contrast */
     line-height: 1.6;
